@@ -1,7 +1,7 @@
 // Base URL for OpenWeatherMap API
-let baseURL = "https://api.openweathermap.org/data/2.5/weather?zip=";
+const baseURL = "https://api.openweathermap.org/data/2.5/weather?zip=";
 // Personal API Key for OpenWeatherMap API
-let apiKey = "&units=metric&appid=7002ef44000918473a71116248f103e3";
+const apiKey = "&appid=7002ef44000918473a71116248f103e3&units=metric";
 // Creating the fullDate
 const date = new Date();
 const fullDate = `${date.getDate()}/${
